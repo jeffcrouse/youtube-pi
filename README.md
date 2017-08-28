@@ -13,7 +13,7 @@
 
 This script can be run on a Raspberry Pi and will continuously play Youtube videos from a particular account or playlist. 
 
-
+![My Youtube-PI](https://raw.githubusercontent.com/jeffcrouse/youtube-pi/master/youtube-pi.jpg)
 
 ## Requirements
 
