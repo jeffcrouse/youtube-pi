@@ -9,7 +9,10 @@
 
 ```
 
+
+
 This script can be run on a Raspberry Pi and will continuously play Youtube videos from a particular account or playlist. 
+
 
 
 ## Requirements
@@ -25,9 +28,11 @@ This script can be run on a Raspberry Pi and will continuously play Youtube vide
 
 Set up a Raspberry Pi as you normally would. 
 
+Get a Youtube API key from https://console.developers.google.com/apis/dashboard
+
 Set an environment variable with your YouTube API key. You can do this by addint the following line to your /home/pi/.profile
 
-``export YOUTUBE_DATA_API_KEY=AIzaSyC5uMOtb0fPlXR6PN1Ii8CtLICWv9CucRM``
+``export YOUTUBE_DATA_API_KEY=AIzaSyC5uMOtb0fPlXR6PN1Ii8CtLICWv9CucRM`` (inactive key)
 
 
 Put this script somewhere (I just put it right in the home directory) and run it.
