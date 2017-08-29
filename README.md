@@ -32,14 +32,14 @@ Get a Youtube API key from https://console.developers.google.com/apis/dashboard
 
 Put this script somewhere (I just put it right in the home directory) and run it. Replace [my YouTube Data API key] with your own key that you got from the developer console.
 
-``
+```
 export YOUTUBE_DATA_API_KEY=[my YouTube Data API key]
 nohup python /home/pi/youtube-pi.py > youtube-pi.out &
-``
+```
 
 Optionally, you can put the following line into your /etc/rc.local to have it automatically start on boot.
 
-``
+```
 export YOUTUBE_DATA_API_KEY=AIzaSyC5uMOtb0fPlXR6PN1Ii8CtLICWv9CucRM
 python /home/pi/youtube-pi.py > youtube-pi.out &
-``
+```
